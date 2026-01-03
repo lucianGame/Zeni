@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<div>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./home.css" rel="stylesheet" />
+
+  </head>
+
+  <div class="home-container">
+    <h1>
+
+      <img class = "title-image" src="Images/ZHS title.png" alt="title image"></h1>
+    <header data-thq="thq-navbar" class="home-navbar-interactive">
+      <ul class="nav-bar">
+        <input type="checkbox" id="check" />
+        <span class="menu">
+          <li><a href="home.html"><img class="link-image" src="Images/titles/home_title.png" alt="title image"></a></li>
+          <li><a href="about.html"><img class="link-image" src="Images/titles/aboutme_title.png" alt="title image"></a>
+          </li>
+          <li><a href="contact.html"><img class="link-image" src="Images/titles/contact_title.png"
+                alt="title image"></a></li>
+          <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </span>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </ul>
+    </header>
+
+    <div class="contact-container1">
+      <div>
+        <form action="https://formsubmit.co/lucianmeisler@gmail.com" method="POST">
+          <label for="Name" class="body-text2">Your name</label>
+          <div class="fcf-input-group">
+            <input class="body-text3" type="text" id="Name" name="Name" class="fcf-form-control" required>
+          </div>
+          <label for="Email" class="body-text2">Your email address</label>
+          <div class="fcf-input-group">
+            <input class="body-text3" type="text" id="Email" name="Email" class="fcf-form-control" required>
+          </div>
+          <div class="fcf-form-group">
+            <label for="Message" class="body-text2">Your message</label>
+            <div class="fcf-input-group">
+              <textarea class="body-text3" id="Message" name="Message" class="fcf-form-control" rows="5"
+                maxlength="3000" placeholder="Type message here"></textarea>
+            </div>
+          </div>
+          <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="contact-button">Send</button>
+          </div>
+      </div>
+      </form>
+    </div>
+  </div>
