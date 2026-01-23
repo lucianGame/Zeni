@@ -893,6 +893,7 @@ html,
     width: 610px;
     margin: 20px;
     align-items: center;
+    margin-top: 40px;
   }
 
 
@@ -944,6 +945,7 @@ html,
     /* Arrange items vertically */
     margin: 0px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .work-link-image {
@@ -958,8 +960,8 @@ html,
     margin: 0px;
     font-weight: 200;
     letter-spacing: 1px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
   }
 
   .h3 {
@@ -967,15 +969,16 @@ html,
     margin: 0px;
     font-weight: 200;
     letter-spacing: 1px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .h4 {
     font-size: 25px;
     font-weight: 200;
     justify-self: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 
 
@@ -985,7 +988,8 @@ html,
     justify-content: center;
     align-content: center;
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   .carousel_image {
@@ -1030,6 +1034,7 @@ html,
     border: 1px solid #000000;
     border-radius: 4px;
     width: 50px;
+    
   }
 
   .about-container {
@@ -1044,10 +1049,22 @@ html,
 
   .body-text{
     font-size: 20px;
-    margin: 0px;
     margin-left:40px;
     margin-right:40px;
-    margin-top: 40px;
+    margin-top: 60px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .nav-bar
+  {
+    margin-right: 5px;
+    margin-bottom: -40px;
+  }
+
+  .contact-container1 {
+    margin-top: 70px;
   }
 
   
@@ -1056,43 +1073,27 @@ html,
 
 @media (max-width: 1000px) {
 
-  .menu {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: -100%;
-    z-index: 100;
-    background-color: #78153df8;
-    transition: all 0.2s ease-in-out;
-}
+  
+  .link-image {
+    width: auto;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
 
-
-
-
-
-  .menu li {
-    margin-top: 40px;
   }
 
-  .menu li a {
-    padding: 10px;
-    color: #ffffff;
-  }
-
-  .open-menu,
-  .close-menu {
-    display: block;
-  }
-
-  #check:checked~.menu {
-    left: 0;
+  .nav-bar
+  {
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-bottom: -40px;
   }
 
 }
+
 
 
 @media (max-width: 1500px) {
